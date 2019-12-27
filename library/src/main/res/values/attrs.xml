@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoBannerView">
+        <attr name="banner_layout" format="reference|integer"/>
+        <attr name="is_auto_play" format="boolean"/>
+        <attr name="delayTime" format="integer"/>
+    </declare-styleable>
+</resources>
