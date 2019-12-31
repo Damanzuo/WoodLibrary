@@ -36,4 +36,5 @@ dependencies {
     implementation rootProject.ext.dependencies.material
     implementation rootProject.ext.dependencies.lombok
     annotationProcessor rootProject.ext.dependencies.lombok
+    implementation project(path: ':commonlib')
 }

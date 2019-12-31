@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">sample</string>
+    <string name="common_confirm">好的</string>
 </resources>

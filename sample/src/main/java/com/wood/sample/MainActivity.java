@@ -4,6 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.blankj.utilcode.util.AdaptScreenUtils;
+import com.wood.commonlib.widget.CommonDialog;
 import com.wood.library.view.AutoBannerView;
 import com.wood.sample.bean.BannerInfo;
 import com.wood.sample.constants.Constant;
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AdaptScreenUtils.adaptWidth(getResources(),1080);
+        AdaptScreenUtils.adaptHeight(getResources(),1920,true);
         setContentView(R.layout.activity_main);
         mBannerView = findViewById(R.id.auto_banner);
         List<BannerInfo> list = new ArrayList<>();
@@ -33,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         }
         mBannerView.setBannerData(list);
 
+        CommonDialog dialog = new CommonDialog(this);
+        dialog.show();
     }
 
     private void createDimensFile() {
