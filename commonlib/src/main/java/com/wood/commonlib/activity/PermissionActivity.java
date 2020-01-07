@@ -16,7 +16,7 @@ import java.util.List;
 public class PermissionActivity extends AppCompatActivity {
 
     private String[] mPermissions;
-
+    private String test;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
