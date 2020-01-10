@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: rootProject.ext.plugins.greendao
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
@@ -27,13 +26,16 @@ android {
 
     }
 
-    sourceSets {
-        main {
-            res.srcDirs =rootProject.ext.layoutdirs
-        }
-    }
+//    sourceSets {
+//        main {
+//            res.srcDirs =rootProject.ext.layoutdirs
+//        }
+//    }
 
-    compileOptions rootProject.ext.compileOptions
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 }
 
@@ -45,25 +47,8 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation rootProject.ext.dependencies.material
-    implementation rootProject.ext.dependencies.greendao
-    implementation rootProject.ext.dependencies.autosize
-    implementation rootProject.ext.dependencies.immersionbar
-    implementation rootProject.ext.dependencies.lombok
-    implementation rootProject.ext.dependencies.permission
-    implementation rootProject.ext.dependencies.pictureLibrary
     implementation rootProject.ext.dependencies.glide
-
     implementation rootProject.ext.dependencies.glideTransformation
-    implementation rootProject.ext.dependencies.BaseAdapterHelper
-    implementation rootProject.ext.dependencies.zxing
-    api rootProject.ext.dependencies.gson
-
-
-    debugImplementation rootProject.ext.dependencies.debugdb
-    debugImplementation rootProject.ext.dependencies.debugdbencrypt
-
-    annotationProcessor rootProject.ext.dependencies.permissionProcesso
-    annotationProcessor rootProject.ext.dependencies.glideCompiler
     annotationProcessor rootProject.ext.dependencies.lombok
 
 }

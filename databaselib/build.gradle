@@ -23,7 +23,14 @@ android {
         }
     }
 
-    compileOptions rootProject.ext.compileOptions
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
 
 }
 
@@ -39,4 +46,5 @@ dependencies {
     debugImplementation rootProject.ext.dependencies.debugdb
     debugImplementation rootProject.ext.dependencies.debugdbencrypt
     implementation project(path: ':commonlib')
+    annotationProcessor rootProject.ext.dependencies.lombok
 }

@@ -66,9 +66,15 @@ ext {
 
             zxing                  : 'com.google.zxing:core:3.4.0',
 
-            logger                  : 'com.orhanobut:logger:2.2.0',
+            logger                 : 'com.orhanobut:logger:2.2.0',
 
-            utilcodex                  : 'com.blankj:utilcodex:1.26.0'
+            utilcodex              : 'com.blankj:utilcodex:1.26.0',
+
+            amap3dmap              : 'com.amap.api:3dmap:latest.integration',
+            //定位功能
+            amaplocation           : 'com.amap.api:location:latest.integration',
+            //搜索功能
+            amapsearch             : 'com.amap.api:search:latest.integration'
     ]
 
     layoutdirs = [

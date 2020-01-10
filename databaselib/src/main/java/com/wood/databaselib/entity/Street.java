@@ -10,7 +10,7 @@ import org.greenrobot.greendao.annotation.Property;
  * @version 1.0
  * @Time 2019/12/07 11:00
  */
-@Entity(nameInDb ="Street",createInDb = false)
+@Entity
 public class Street {
     @Id(autoincrement = true)
     @Property(nameInDb = "street_ID")
@@ -41,38 +41,11 @@ public class Street {
      */
     @Property(nameInDb = "SORT")
     private String sort;
-    /**
-     * 创建时间
-     */
-    @Property(nameInDb = "GMT_CREATE")
-    private String gmtCreate;
-    /**
-     * 修改时间
-     */
-    @Property(nameInDb = "GMT_MODIFIED")
-    private String gmtModified;
-    /**
-     * 备注
-     */
-    @Property(nameInDb = "MEMO")
-    private String memo;
-    /**
-     * 状态
-     */
-    @Property(nameInDb = "DATA_STATE")
-    private String dataState;
-    /**
-     * 租户ID
-     */
-    @Property(nameInDb = "TENANT_CODE")
-    private String tenantCode;
-    @Property(nameInDb = "PINYIN")
+    @Property(nameInDb = "PIN_YIN")
     private String pinYin;
-    @Generated(hash = 1782475960)
+    @Generated(hash = 875826336)
     public Street(Long id, int areaCode, String streetName, int streetCode,
-            String shortName, String lng, String lat, String sort, String gmtCreate,
-            String gmtModified, String memo, String dataState, String tenantCode,
-            String pinYin) {
+            String shortName, String lng, String lat, String sort, String pinYin) {
         this.id = id;
         this.areaCode = areaCode;
         this.streetName = streetName;
@@ -81,11 +54,6 @@ public class Street {
         this.lng = lng;
         this.lat = lat;
         this.sort = sort;
-        this.gmtCreate = gmtCreate;
-        this.gmtModified = gmtModified;
-        this.memo = memo;
-        this.dataState = dataState;
-        this.tenantCode = tenantCode;
         this.pinYin = pinYin;
     }
     @Generated(hash = 1146976529)
@@ -139,40 +107,11 @@ public class Street {
     public void setSort(String sort) {
         this.sort = sort;
     }
-    public String getGmtCreate() {
-        return this.gmtCreate;
-    }
-    public void setGmtCreate(String gmtCreate) {
-        this.gmtCreate = gmtCreate;
-    }
-    public String getGmtModified() {
-        return this.gmtModified;
-    }
-    public void setGmtModified(String gmtModified) {
-        this.gmtModified = gmtModified;
-    }
-    public String getMemo() {
-        return this.memo;
-    }
-    public void setMemo(String memo) {
-        this.memo = memo;
-    }
-    public String getDataState() {
-        return this.dataState;
-    }
-    public void setDataState(String dataState) {
-        this.dataState = dataState;
-    }
-    public String getTenantCode() {
-        return this.tenantCode;
-    }
-    public void setTenantCode(String tenantCode) {
-        this.tenantCode = tenantCode;
-    }
     public String getPinYin() {
         return this.pinYin;
     }
     public void setPinYin(String pinYin) {
         this.pinYin = pinYin;
     }
+
 }

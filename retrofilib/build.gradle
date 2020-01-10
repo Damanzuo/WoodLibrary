@@ -21,8 +21,10 @@ android {
         }
     }
 
-    compileOptions rootProject.ext.compileOptions
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -46,11 +48,11 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:3.14.4"
     implementation "com.squareup.okhttp3:logging-interceptor:3.14.4"
 
-// RxJava2
+    // RxJava2
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0-RC6'
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
 
-// RxLifecycle
+    // RxLifecycle
     implementation 'com.trello.rxlifecycle3:rxlifecycle:3.1.0'
     implementation 'com.trello.rxlifecycle3:rxlifecycle-android:3.1.0'
     implementation 'com.trello.rxlifecycle3:rxlifecycle-components:3.1.0'

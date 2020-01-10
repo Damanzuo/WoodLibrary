@@ -1,2 +1,2 @@
-include ':library', ':sample', ':retrofilib', ':databaselib', ':commonlib'
+include ':library', ':sample', ':retrofilib', ':databaselib', ':commonlib', ':amaplib'
 rootProject.name='WoodLibrary'

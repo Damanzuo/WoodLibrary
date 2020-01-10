@@ -1,0 +1,243 @@
+[
+  {
+    "lat": "39.904987",
+    "lng": "116.405289",
+    "provinceCode": 110000,
+    "provinceName": "北京",
+    "sort": "1"
+  },
+  {
+    "lat": "39.125595",
+    "lng": "117.190186",
+    "provinceCode": 120000,
+    "provinceName": "天津",
+    "sort": "2"
+  },
+  {
+    "lat": "38.045475",
+    "lng": "114.502464",
+    "provinceCode": 130000,
+    "provinceName": "河北省",
+    "sort": "3"
+  },
+  {
+    "lat": "37.857014",
+    "lng": "112.549248",
+    "provinceCode": 140000,
+    "provinceName": "山西省",
+    "sort": "4"
+  },
+  {
+    "lat": "40.81831",
+    "lng": "111.670799",
+    "provinceCode": 150000,
+    "provinceName": "内蒙古自治区",
+    "sort": "5"
+  },
+  {
+    "lat": "41.796768",
+    "lng": "123.429092",
+    "provinceCode": 210000,
+    "provinceName": "辽宁省",
+    "sort": "6"
+  },
+  {
+    "lat": "43.886841",
+    "lng": "125.324501",
+    "provinceCode": 220000,
+    "provinceName": "吉林省",
+    "sort": "7"
+  },
+  {
+    "lat": "45.756966",
+    "lng": "126.642464",
+    "provinceCode": 230000,
+    "provinceName": "黑龙江省",
+    "sort": "8"
+  },
+  {
+    "lat": "31.231707",
+    "lng": "121.472641",
+    "provinceCode": 310000,
+    "provinceName": "上海",
+    "sort": "9"
+  },
+  {
+
+    "lat": "32.041546",
+    "lng": "118.76741",
+    "provinceCode": 320000,
+    "provinceName": "江苏省",
+    "sort": "10"
+  },
+  {
+
+    "lat": "30.287458",
+    "lng": "120.15358",
+    "provinceCode": 330000,
+    "provinceName": "浙江省",
+    "sort": "11"
+  },
+  {
+
+    "lat": "31.861191",
+    "lng": "117.283043",
+    "provinceCode": 340000,
+    "provinceName": "安徽省",
+    "sort": "12"
+  },
+  {
+    "lat": "26.075302",
+    "lng": "119.306236",
+    "provinceCode": 350000,
+    "provinceName": "福建省",
+    "sort": "13"
+  },
+  {
+    "lat": "28.676493",
+    "lng": "115.892151",
+    "provinceCode": 360000,
+    "provinceName": "江西省",
+    "sort": "14"
+  },
+  {
+    "lat": "36.675808",
+    "lng": "117.000923",
+    "provinceCode": 370000,
+    "provinceName": "山东省",
+    "sort": "15"
+  },
+  {
+    "lat": "34.757977",
+    "lng": "113.665413",
+    "provinceCode": 410000,
+    "provinceName": "河南省",
+    "sort": "16"
+  },
+  {
+    "lat": "30.584354",
+    "lng": "114.298569",
+    "provinceCode": 420000,
+    "provinceName": "湖北省",
+    "sort": "17"
+  },
+  {
+    "lat": "28.19409",
+    "lng": "112.982277",
+    "provinceCode": 430000,
+    "provinceName": "湖南省",
+    "sort": "18"
+  },
+  {
+    "lat": "23.125177",
+    "lng": "113.28064",
+    "provinceCode": 440000,
+    "provinceName": "广东省",
+    "sort": "19"
+  },
+  {
+    "lat": "22.82402",
+    "lng": "108.320007",
+    "provinceCode": 450000,
+    "provinceName": "广西壮族自治区",
+    "sort": "20"
+  },
+  {
+    "lat": "20.031971",
+    "lng": "110.331192",
+    "provinceCode": 460000,
+    "provinceName": "海南省",
+    "sort": "21"
+  },
+  {
+    "lat": "29.533155",
+    "lng": "106.504959",
+    "provinceCode": 500000,
+    "provinceName": "重庆",
+    "sort": "22"
+  },
+  {
+    "lat": "30.659462",
+    "lng": "104.065735",
+    "provinceCode": 510000,
+    "provinceName": "四川省",
+    "sort": "23"
+  },
+  {
+    "lat": "26.578342",
+    "lng": "106.713478",
+    "provinceCode": 520000,
+    "provinceName": "贵州省",
+    "sort": "24"
+  },
+  {
+    "lat": "25.040609",
+    "lng": "102.71225",
+    "provinceCode": 530000,
+    "provinceName": "云南省",
+    "sort": "25"
+  },
+  {
+    "lat": "29.66036",
+    "lng": "91.13221",
+    "provinceCode": 540000,
+    "provinceName": "西藏自治区",
+    "sort": "26"
+  },
+  {
+    "lat": "34.263161",
+    "lng": "108.948021",
+    "provinceCode": 610000,
+    "provinceName": "陕西省",
+    "sort": "27"
+  },
+  {
+    "lat": "36.058041",
+    "lng": "103.823555",
+    "provinceCode": 620000,
+    "provinceName": "甘肃省",
+    "sort": "28"
+  },
+  {
+    "lat": "36.623177",
+    "lng": "101.778915",
+    "provinceCode": 630000,
+    "provinceName": "青海省",
+    "sort": "29"
+  },
+  {
+    "lat": "38.46637",
+    "lng": "106.278175",
+    "provinceCode": 640000,
+    "provinceName": "宁夏回族自治区",
+    "sort": "30"
+  },
+  {
+    "lat": "43.792816",
+    "lng": "87.617729",
+    "provinceCode": 650000,
+    "provinceName": "新疆维吾尔自治区",
+    "sort": "31"
+  },
+  {
+    "lat": "25.044333",
+    "lng": "121.509064",
+    "provinceCode": 710000,
+    "provinceName": "台湾",
+    "sort": "34"
+  },
+  {
+    "lat": "22.320047",
+    "lng": "114.173355",
+    "provinceCode": 810000,
+    "provinceName": "香港特别行政区",
+    "sort": "32"
+  },
+  {
+    "lat": "22.198952",
+    "lng": "113.549088",
+    "provinceCode": 820000,
+    "provinceName": "澳门特别行政区",
+    "sort": "33"
+  }
+]
